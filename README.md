@@ -16,4 +16,7 @@
 
 ## Usage
 
-## Installation
+## Installation with Swift Package Manager
+
+Use this URL as a dependency:
+`https://github.com/WilhelmOks/ScaledToFit.git`
