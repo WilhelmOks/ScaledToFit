@@ -7,3 +7,12 @@
 </p>
 
 # ScaledToFit
+
+![fit](Images/fit.png)
+![fit min](Images/fit_min.png)
+![fit max](Images/fit_max.png)
+
+
+## Usage
+
+## Installation
