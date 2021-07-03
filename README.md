@@ -8,10 +8,11 @@
 
 # ScaledToFit
 
-![fit](Images/fit.png)
-![fit min](Images/fit_min.png)
-![fit max](Images/fit_max.png)
-
+<span>
+<img src="Images/fit.png" width="250" />
+<img src="Images/fit_min.png" width="252" />
+<img src="Images/fit_max.png" width="250" />
+</span>
 
 ## Usage
 
