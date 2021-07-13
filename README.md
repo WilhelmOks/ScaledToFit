@@ -36,6 +36,17 @@ let containerSize = CGSize(width: 20, height: 30)
 let scaledSize = originalSize.scaledToFit(size: containerSize)
 ```
 
+If you want to only scale down, use `scaledDownToFit`:
+
+`let scaledSize = originalSize.scaledDownToFit(maxSize: containerSize)`
+
+The new size will be a smaller version of the original size.
+If the original size completely fits into the provided container size, the function will return `nil`, indicating that no scaling is necessary.
+You can fall back to the original size in that case:
+
+`let scaledSize = originalSize.scaledDownToFit(maxSize: containerSize) ?? originalSize`
+
+
 ## Installation with Swift Package Manager
 
 Use this URL as a dependency:
