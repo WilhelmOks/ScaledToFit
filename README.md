@@ -23,7 +23,18 @@ The following screenshots are showing the scaling in action:
 
 ## Usage
 
-TODO
+The scale logic itself is available in the generic `Size` type, which works with (width, height) tuples of any FloatingPoint type.
+So this can be used by any code, no matter the actual type of the size or rectangle:
+
+`let scaledSize = Size.scaledToFit(orinigalSize: (10, 15), size: (20, 30))`
+
+There is also a convenience extension for the CGSize type, which is available for all of Apple's platform SDKs:
+
+```
+let originalSize = CGSize(width: 10, height: 15)
+let containerSize = CGSize(width: 20, height: 30)
+let scaledSize = originalSize.scaledToFit(size: containerSize)
+```
 
 ## Installation with Swift Package Manager
 
