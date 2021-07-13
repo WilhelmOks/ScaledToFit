@@ -46,6 +46,8 @@ You can fall back to the original size in that case:
 
 `let scaledSize = originalSize.scaledDownToFit(maxSize: containerSize) ?? originalSize`
 
+Similarly, if you want to only scale up, use `scaledUpToFit`.
+The new size will be a larger version of the original size, or `nil` if no scaling is needed.
 
 ## Installation with Swift Package Manager
 
